@@ -96,6 +96,7 @@ const HomeScreen = () => {
                 <MagnifyingGlassIcon size={25} color="white" />
               </TouchableOpacity>
             </View>
+
             {!isEmpty(locations) && showSearch && (
               <View className="absolute w-full bg-gray-300 top-16 rounded-3xl">
                 {locations.map((item, index) => {
